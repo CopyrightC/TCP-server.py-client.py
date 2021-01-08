@@ -2,8 +2,8 @@
 
 import socket
 
-HOST = '0.0.0.0' # Standard loopback interface address (localhost)
-PORT = 65432        # Port to listen on (non-privileged ports are > 1023)
+HOST = '0.0.0.0' 
+PORT = 65432        # Use any >1024
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.bind((HOST, PORT))
