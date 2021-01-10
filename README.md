@@ -12,3 +12,5 @@ Powers of `Server.py`:
 3.Can ban the client permanently
 
 Note that you're only going to recieve messages if you provide the input to the programme
+
+If you're intrested in making this code work on public network then you need to use an `Public IP` in the `client.py` and use `Port forwarding` visit www.ngrok.com if you're intrested also note that the ip of server should only be `0.0.0.0` or `127.0.0.1` (localhost)
